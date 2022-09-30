@@ -5,7 +5,7 @@
 #import time
 #from datetime import datetime
 
-#input = jetson.utils.videoSource("rtsp://admin:Run4fun@192.168.86.39:554/h264Preview_01_main",['--input-height=1080', '--input-width=1920'])
+#input = jetson.utils.videoSource("rtsp://xxx@xxx/h264Preview_01_main",['--input-height=1080', '--input-width=1920'])
 #output = jetson.utils.videoOutput("",['--input-height=1080', '--input-width=1920'])
 
 # process frames until the user exits
