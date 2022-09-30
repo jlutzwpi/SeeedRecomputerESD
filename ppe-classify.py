@@ -65,7 +65,7 @@ def main(argv):
             video_type = args[0]
             if video_type == 'rtsp':
                 #start RTSP camera instance
-                rtsp_location = "admin:Run4fun@192.168.86.39:554//h264Preview_01_main"
+                rtsp_location = "admin:xxx@xxxx:554//h264Preview_01_main"
                 vidcap = nano.Camera(camera_type=2, source=rtsp_location, width=1280, height=760, fps=30)
             elif video_type == 'stream':
                 #start CSI camera instance using nanocamera            
